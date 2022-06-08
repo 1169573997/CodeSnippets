@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yth_uitableview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    UITableView *&lt;#tableView#&gt; = [[UITableView alloc] initWithFrame:(CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;)) style:&lt;#(UITableViewStyle)#&gt;];
+    &lt;#tableView#&gt;.backgroundColor = [UIColor &lt;#whiteColor#&gt;];
+    &lt;#tableView#&gt;.delegate = self;
+    &lt;#tableView#&gt;.dataSource = self;
+    &lt;#tableView#&gt;.rowHeight = &lt;#rowHeight#&gt;;
+    &lt;#tableView#&gt;.numberOfSections = &lt;#numberOfSections#&gt;;
+    &lt;#tableView#&gt;.sectionHeaderHeight = &lt;#headerHeight#&gt;;
+    &lt;#tableView#&gt;.sectionFooterHeight = &lt;#footerHeight#&gt;;
+    &lt;#tableView#&gt;.tableHeaderView = &lt;#headerView#&gt;;
+    &lt;#tableView#&gt;.tableFooterView = &lt;#footerView#&gt;;
+    &lt;#tableView#&gt;.separatorStyle = UITableViewCellSeparatorStyleNone;
+    [&lt;#self.view#&gt; addSubview:&lt;#tableView#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A57A01D0-485E-454D-9925-BC3BF7AB8AA0</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UITableView-定义</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
