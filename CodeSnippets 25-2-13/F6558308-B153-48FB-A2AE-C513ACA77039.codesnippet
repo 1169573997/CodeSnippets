@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>collection</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>lazy var collectionView:UICollectionView = {
+    let layout = UICollectionViewFlowLayout()
+    layout.scrollDirection = &lt;#.horizontal#&gt;
+    let itemWidth:CGFloat = &lt;#Float#&gt;
+    let itemHeight:CGFloat = &lt;#Float#&gt;
+    layout.itemSize = CGSize(width: itemWidth, height: itemHeight)
+    
+    let view = UICollectionView(frame: .zero, collectionViewLayout: layout)
+    view.delegate = self
+    view.dataSource = self
+    view.showsHorizontalScrollIndicator = false
+    view.backgroundColor = .clear
+    if #available(iOS 11.0, *){
+        view.contentInsetAdjustmentBehavior = .never
+    } else {
+        self.automaticallyAdjustsScrollViewInsets = false
+    }
+    view.register(&lt;#cell#&gt;.self, forCellWithReuseIdentifier: "&lt;#cell#&gt;")
+    
+    return view
+}()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F6558308-B153-48FB-A2AE-C513ACA77039</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>collection</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>collection 懒加载</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>button</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>lazy var &lt;#view#&gt;:UIButton = {
+        let view = UIButton()
+        view.setTitle(&lt;#T##title: String?##String?#&gt;, for: .normal)
+        view.backgroundColor = &lt;#T##color: UIColor?##UIColor?#&gt;
+        view.titleLabel?.font = &lt;#T##UIFont?#&gt;
+        view.setTitleColor(&lt;#T##color: UIColor?##UIColor?#&gt;, for: .normal)
+        return view
+    }()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1ACC1B75-F458-4B7D-B2D2-42EDA9B906DD</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>uibutton</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>uibutton 懒加载</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
